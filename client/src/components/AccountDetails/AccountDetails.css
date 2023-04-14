@@ -1,0 +1,91 @@
+.account-details-grid-wrapper {
+margin-top: 130px;
+  display: flex;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+.flex {
+  flex: 1;
+}
+.account-card {
+  margin: 10px;
+}
+
+.account-card .inner-wrapper {
+  padding: 5px;
+}
+
+.account-card .inner-wrapper h4 {
+  margin: 25px;
+  padding: 10px;
+  background: linear-gradient(#c03131, rgb(222, 28, 28));
+  color: #fff;
+  border-radius: 50px;
+}
+
+.add-balance-card {
+  margin-top: 5vh;
+  height: 16vh;
+}
+
+
+.add-balance-card  h4{
+    padding: 15px;
+    text-align: center;
+}
+
+.child{
+    position: relative;
+    top:-0.1vh;
+    left: 14vw;
+}
+
+
+.form-input-field{
+    border: 0.2px solid black;
+    border-radius: 20px ;
+    outline: none;
+    padding: 5px 10px 5px 10px;
+}
+.submit-button{
+    border:none;
+    padding: 8px 10px 8px 10px;
+    margin-left: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background: #c03131;
+    color: #fff;
+}
+
+.submit-button:hover{
+    background: #3d3c3c;
+    transition: 0.5s ease-in-out;
+}
+
+.submit-button-2{
+    border:none;
+    padding: 8px 10px 8px 10px;
+    margin-left: 6vw;
+    width: 150px;
+    border-radius: 20px;
+    background: #c03131;
+    color: #fff;
+}
+
+.submit-button-2:hover{
+    background: #3d3c3c;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .account-details-section{
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+    }
+  .account-details-grid-wrapper {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+}
